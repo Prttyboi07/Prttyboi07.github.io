@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">ASCI Portfolio</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <!-- Dark/Light Mode Toggle -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <!-- Mobile Menu Toggle -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="home-title">Erwin A. Satinitigan</h1>
+                <p class="home-subtitle">Aspiring Front-End Web Developer | 2nd year IT Student</p>
+                <p class="home-description">
+                    Passionate about creating beautiful and functional web experiences. 
+                    Currently learning and building projects to sharpen my skills.
+                </p>
+                <blockquote class="home-quote">
+                    <i class="fas fa-quote-left"></i>
+                    "The only way to do great work is to love what you do."
+                    <span class="quote-author">— Steve Jobs</span>
+                </blockquote>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="home-socials">
+                    <a href="https://github.com/dashboard" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://web.facebook.com/erwin.satinitigan.2024" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-wrapper">
+                    <img src="erwinevsu.jpg"Profile Photo">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="erwinoec.jpg" alt="About Photo">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">Who am I?</h3>
+                    <p class="about-description">
+                        I am a second-year IT student with a passion for technology and web development. 
+                        I enjoy learning new programming languages and frameworks, and I'm always eager 
+                        to take on new challenges that help me grow as a developer.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="detail-content">
+                                <h4>Education</h4>
+                                <p>BS Information Technology</p>
+                                <span>Eastern Visayas State Universityn - Ormoc Campus • 2nd Year</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <div class="detail-content">
+                                <h4>Technical Interests</h4>
+                                <p>Web Development, UI/UX Design</p>
+                                <span>Frontend & Backend Development</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-heart"></i>
+                            <div class="detail-content">
+                                <h4>Hobbies</h4>
+                                <p>Gaming, Reading, Photography</p>
+                                <span>Always exploring new interests</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="section-divider"></div>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                
+                <!-- Technical Areas -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Technical Areas</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Database</span>
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">Cybersecurity</span>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="section-divider"></div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="erwinfb2.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Prttyboi07/practical-flexbox" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flexbox</h3>
+                        <p class="project-description">
+                            Creating flexbox design enhancing front-end design in web dev. 
+                        </p>
+                        <div class="project-role">
+                            <strong>My Role:</strong> Solo Dev - Designed and Submitted. 
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="erwinproject2.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Self Portfolio</h3>
+                        <p class="project-description">
+                            A self porfolio our project in IT era
+                        </p>
+                        <div class="project-role">
+                            <strong>My Role:</strong> Solo dev - Submitted and Graded. 
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-divider"></div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out if you have any questions or just want to connect!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:erwinjr.satinitigan@evsu.edu.ph">erwinjr.satinitigan@evsu.edu.ph</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ormoc City, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-socials">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/dashboard" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://web.facebook.com/erwin.satinitigan.2024" target="_blank" class="social-btn">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Erwin A. Satinitigan Jr.. All Rights Reserved.</p>
+            <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
